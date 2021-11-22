@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Example meta description describing the pages content for search engines result descriptions."
+		<title>Home Page | ACME Inc</title>
+		<link rel="stylesheet" href="./assets/css/normalize.css">
+		<style>
+			section {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<main>
+			<section>
+				<h1>Example Heading</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<img src="./example.png" alt="a picture of an example" width="400" height="300" style="object-fit: cover;">
+			</section>
+			<section>
+				<h2>Contact Us</h2>
+				<form action="/post_action_page.php">
+					<label for="full-name">Full Name</label>
+					<input type="text" id="full-name" name="full-name" aria-label="Enter your full name">
+					<input type="submit" value="Submit" aria-label="Submit your request for contact">
+				</form>
+			</section>
+		</main>
+	</body>
+	
+	<script>
+		function myFunction{
+		 console.log("Test");
+		}
+		
+		document.addEventListener("DOMContentLoaded", function(event) {
+			// Put any script code that needs to alter/interact with the document right after page loading. This will run as soon as the page has finished loading. This prevents issues with the DOM not being ready when the function runs.
+		});
+	</script>
+</html>
